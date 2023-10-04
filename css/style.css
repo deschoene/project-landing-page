@@ -1,0 +1,48 @@
+* {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.section {
+    display: flex;
+    justify-content: center;
+}
+
+.section-1 {
+    background-color: #1F2937;
+}
+
+.section-2 {
+    background-color: #1F2937;
+}
+
+.header {
+    display: flex;
+    padding: 15px;
+    align-items: baseline;
+    justify-content: space-between;
+    width: 70%;
+}
+
+.header .logo {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.header ul {
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+}
+
+.header a {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.banner {
+
+    height: 300px;
+    width: 70%;   
+}
