@@ -3,6 +3,12 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
 .section {
     display: flex;
     justify-content: center;
@@ -20,6 +26,13 @@
 
 .section-3 {
     background-color: #e5e7eb;
+}
+
+.section-4 {
+    background-color: #1F2937;
+    color: #f9faf8;
+    margin-top:auto;
+    padding: 30px 0;
 }
 
 .header {
@@ -149,5 +162,11 @@
 }
 
 .author {
-
+    font-size: 24px;
+    color: black;
+    font-weight: 900;
+    text-align: right;
+    padding-right: 180px;
+    padding-bottom: 90px;
 }
+
