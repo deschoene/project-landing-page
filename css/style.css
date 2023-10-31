@@ -18,6 +18,10 @@
     color: #e5e7eb;
 }
 
+.section-3 {
+    
+}
+
 .header {
     display: flex;
     padding: 15px;
@@ -85,4 +89,41 @@
     justify-content: center;
     align-items: center;
     flex: 1;
+}
+
+.random-section {
+    background-color: red;
+    width: 60%;
+}
+
+.random-section h2 {
+    font-weight: 800;
+    font-size: 36px;
+    color: #1F2937;
+    margin: 45px 0;
+}
+
+.random-title {
+    display: flex;
+    justify-content: center;
+}
+
+.random-elements  {
+    display: flex;
+}
+
+.random-element  {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.random-square {
+    height: 200px;
+    width: 200px;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 15px;
+    border-color: #3882F6;
+    background-color: yellow;
 }
