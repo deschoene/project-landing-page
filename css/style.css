@@ -19,7 +19,7 @@
 }
 
 .section-3 {
-    
+    background-color: #e5e7eb;
 }
 
 .header {
@@ -92,7 +92,6 @@
 }
 
 .random-section {
-    background-color: red;
     width: 60%;
 }
 
@@ -100,30 +99,55 @@
     font-weight: 800;
     font-size: 36px;
     color: #1F2937;
-    margin: 45px 0;
 }
 
 .random-title {
     display: flex;
     justify-content: center;
+    padding: 45px 0;
 }
 
 .random-elements  {
     display: flex;
+    justify-content: space-between;
+    padding-bottom: 120px;
+    padding-left: 110px;
+    padding-right: 110px;
 }
 
 .random-element  {
     display: flex;
     flex-direction: column;
     gap: 10px;
+    width: 180px;
+    color: grey;
+    text-align: center;
 }
 
 .random-square {
-    height: 200px;
-    width: 200px;
+    height: 180px;
+    width: 180px;
     border-style: solid;
     border-width: 5px;
     border-radius: 15px;
     border-color: #3882F6;
-    background-color: yellow;
+}
+
+.quote-section {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    gap: 10px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    font-weight: 100;
+    padding: 90px 150px 5px 150px;
+}
+
+.author {
+
 }
